@@ -1,9 +1,9 @@
-<h1 align="left">RbxFlip Shop SNiper</h1>
+<h1 align="left">RbxFlip Shop Sniper</h1>
 
 ###
 
 <p align="left">A simple bot to snipe limiteds from Rbxflip's limited shop that I made in around an hour.</p>
-
+<p align="left">Message me on discord to report bugs or for help: gusto#8622</p>
 ###
 
 <h2 align="left">Instructions</h2>
