@@ -16,7 +16,21 @@ let min_rap = 1
 let delay_per_check = 0.5
 let check_logs = true
 let custom_items = [2409285794];
+let webhook = ""
 
+
+async function send_webhook(data){
+  fetch(webhook, {
+    method: 'POST',
+    headers: {
+      'accept': 'application/json',
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify({
+      'content': data
+    })
+  });
+}
 async function check(){
   while (true){
     try{
@@ -74,6 +88,7 @@ async function buy(userId, userAssetId, expectedPrice){
   ])
 }); response = await response.json();
   console.log(response)
+  if(webhook.length>5){send_webhook(response)}
 }
 
 
@@ -85,4 +100,4 @@ async function main(){
   check();
 }
 
-main();
+main()
