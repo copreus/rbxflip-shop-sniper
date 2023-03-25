@@ -15,9 +15,16 @@
 ###
 
 <h2 align="left">Setup instructions</h2>
+<p align="left">On how to get your bearer token, watch this video: https://streamable.com/l5a2y6</p>
 
 ###
+Put your bearer token between the brackets, watch the video above on how to get it.
+```js
+  const bearer = "";
+```
 
-<p align="left">Hello World!!</p>
-
+Put your bearer token between the brackets, watch the video above on how to get it.
+```js
+  const bearer = "";
+```
 ###
