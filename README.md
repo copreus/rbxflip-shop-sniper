@@ -58,6 +58,12 @@ Delay per check. Currently set at 0.5 seconds.
   let delay_per_check = 0.5
 ```
 
+Put a discord webhook here if you want notifications. Optional
+```js
+  let webhook = ""
+
+```
+
 If true, prints to console each time it checks with response code 200
 ```js
   let check_logs = true
