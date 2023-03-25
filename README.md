@@ -23,8 +23,55 @@ Put your bearer token between the brackets, watch the video above on how to get 
   const bearer = "";
 ```
 
-Put your bearer token between the brackets, watch the video above on how to get it.
+Minimum price in USD. Bot wont buy an item if its under this amount.
 ```js
-  const bearer = "";
+  let min_price = 100;
+```
+
+Maximum price in USD. Bot wont buy an item if its over this amount.
+```js
+  let max_price = 150
+```
+
+Max rate in USD. Bot wont buy an item if its over this amount.
+```js
+  let max_rate = 1.5
+```
+
+Maximum value. Bot wont buy an item if its over this amount.
+```js
+  let max_value = 100000
+```
+
+Minimum value. Bot wont buy an item if its under this amount.
+```js
+  let min_value = 10000
+```
+
+Maximum value. Bot wont buy an item if its over this amount.
+```js
+  let max_rap = 100000000
+```
+
+Delay per check. Currently set at 0.5 seconds.
+```js
+  let delay_per_check = 0.5
+```
+
+If true, prints to console each time it checks with response code 200
+```js
+  let check_logs = true
+```
+
+Put custom item ID's here. You can put multiple by seperating each ID with a comma.
+```js
+  let custom_items = [2409285794];
+
+```
+
+An example of multiple items
+```js
+  let custom_items = [2409285794, 88885069, 31101391];
+
 ```
 ###
